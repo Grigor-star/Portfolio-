@@ -1,0 +1,87 @@
+@media screen and (max-width:768px) {
+    .about_title {
+        font-size: 37px;
+    }
+    
+    .about_subtitle {
+        font-size: 17px;
+    }
+    
+    .btn {
+        padding: 10px 38px ;
+    }
+    
+    .skills_inner {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    .skill_item {
+        margin: 50px 50px;
+    }
+}
+
+@media screen and (max-width:435px) {
+    
+    .nav_menu {
+        display: none;
+    }
+    
+    .about {
+        height: 1100px;
+        position: relative;
+    }
+    
+    .about_inner {
+        justify-content: center;
+    }
+    
+    .about_content {
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .about_img {
+        position: absolute;
+        top: 70%;
+        left: -70px;
+    }
+    
+    .project {
+        width: 300px;
+        height: 250px;
+        border: 5px solid #333;
+    }
+    
+    .project_img {
+        width: 300px;
+        height: 250px;
+        box-shadow: 3px 3px 30px #444;
+    }
+    
+    .pc-p {
+        display: none;
+    }
+   
+    .mobile-p {
+        display: block;
+    }
+    
+    .social-title {
+        font-size: 10px;
+    }
+    
+    .s-item_title {
+        font-size: 10px;
+    }
+    
+    .gmail {
+        font-size: 7px;
+    }
+    
+    .copyright_inner {
+        font-size: 10px;
+    }
+}
