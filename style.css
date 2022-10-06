@@ -89,26 +89,9 @@ body {
     opacity: .7;
 }
 
-.btn {
-    display: inline-block;
-    padding: 12px 40px;
-    margin-top: 70px;
-    border: 2px solid #E4E4E4;
-    
-    font-size: 17px;
-    text-transform: uppercase;
-    
-}
-
-.btn-bg {
-    color: #E4E4E4;
-    background: transparent;
-    transition: .5s;
-}
-
-.btn-bg:hover {
-    background: #E4E4E4;
-    color: #333;
+.rm {
+    margin-top: 30px;
+    color: gold;
 }
 
 .about_img {
@@ -232,6 +215,10 @@ body {
     height: 400px;
     box-shadow: 5px 5px 100px #444;
     position: relative;
+}
+
+.mobile-p {
+    display: none;
 }
 
 .project_content {
