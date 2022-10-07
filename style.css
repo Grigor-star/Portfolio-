@@ -61,6 +61,21 @@ body {
     color: #fff;
 }
 
+.hamburger {
+    display: none;
+    margin-top: 10px;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all .3s ease-in-out;
+    background: white;
+    transition: all .3s ease-in-out;
+}
+
 
 .about {
     background: #000;
